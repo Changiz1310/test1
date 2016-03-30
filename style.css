@@ -1,0 +1,1177 @@
+
+
+body{
+margin:0 auto;
+width:1024px;
+}
+@font-face {
+font-family: 'Karla', sans-serif;
+}
+
+p, h1, h3, h2{
+color:white;
+text-align: center;
+font-family: 'Karla', sans-serif;
+}
+a{
+text-decoration: none;
+color:white;
+text-align: center;
+font-family: 'Karla', sans-serif;
+}
+#container-box{
+width:1024px;
+height:500px;
+margin:0 auto;
+background:linear-gradient(rgba(36, 36, 30, 0.3),  rgba(36, 36, 30, 0.3)), url("images/nice.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+float:left;
+margin-top:110px;
+-webkit-animation-name: change;
+-webkit-animation-duration:40s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-delay: 2s;
+}
+
+/************ LOGO SECTION **************/
+#logo{
+width: 1024px;
+height:110px;
+margin:0 auto;
+background:white;
+background:#FF6633;
+border-bottom:5px solid #CC3300;
+position:fixed;
+}
+#logo img{
+margin-left:450px;
+margin-top:10px;
+
+}
+/************ LOGO SECTION **************/
+
+
+
+/************ MENU SECTION **************/
+ul{
+width:800px;
+height:60px;
+margin:inherit;
+}
+li{
+display:inline;
+height:60px;
+float:left;
+width:150px;
+margin-top:20px;
+}
+ul li{
+height:60px;
+margin-left:31px;
+}
+ul li:hover{
+background:#FF6633;
+}
+ul li p{
+font-size:1.2em;
+}
+
+/************ MENU SECTION **************/
+
+
+/************ MAIN BACKGROUND SECTION **************/
+#container-box-menu{
+width:1024px;
+height:60px;
+margin:0 auto;
+} 
+
+#slagord{
+width:500px;
+height:auto;
+margin: 150px auto 0px auto;
+}
+#slagord h1{
+font-size: 2.5em;
+}
+#slagord p{
+font-family: 'Karla', sans-serif;
+}
+#button{
+width:150px;
+height:50px;
+border-radius: 5px;
+border-bottom:5px solid #CC3300;
+background:#FF6633;
+margin:50px auto;
+}
+#button p{
+font-size:1.2em;
+float:left;
+margin-top:15px;
+margin-left:40px;
+}
+
+
+
+/************ MAIN BACKGROUND SECTION **************/
+
+
+/************ SUB MENU SECTION **************/
+#sub-menu{
+width:1024px;
+height:120px;
+background:#333;
+margin:0 auto;
+float:left;
+}
+.biletter{
+width:50%;
+height:100%;
+float:left;
+}
+.biletter-wrapper{
+width:300px;
+height:70px;
+margin:0 auto;
+border-radius: 15px;
+margin-top:25px;
+}
+.opningstider-wrapper{
+width:300px;
+height:70px;
+margin:0 auto;
+border-radius: 15px;
+margin-top:25px;
+}
+.biletter img, .opningstider img{
+float:left;
+margin-left:10px;
+margin-top:2px;
+
+}
+.biletter p, .opningstider p{
+margin-top:33px;
+color:#686868 ;
+float:left;
+font-size: 2em;
+margin-left: 10px;
+}
+.opningstider{
+width:50%;
+height:100%;
+float:left;
+}
+.opningstider:hover, .biletter:hover{
+background:#FF6633;
+}
+/************ SUB MENU SECTION **************/
+
+
+
+/************ SPISE PLASSER SECTION **************/
+#spiseplass-header{
+width:1024px;
+height:150px;
+margin:0 auto;
+background:white;
+text-align: center;
+float:left;
+}
+#spiseplass-header h2 {
+color:#B8B8B8;
+font-size:2em;
+margin-top:60px;
+}
+#spiseplasser {
+float:left;
+background:white;
+height:500px;
+width:1024px;
+}
+#spiseplasser h3{
+color:#B8B8B8;
+margin-top:50px;
+}
+.spiseplass1, .spiseplass2, .spiseplass3, .spiseplass4{
+width:50%;
+height:50%;
+float:left;
+} 
+.spiseplass1:hover, .spiseplass2:hover, .spiseplass3:hover, .spiseplass4:hover{
+background:#F0F0F0 ;
+} 
+.spiseplass1 img, .spiseplass2 img, .spiseplass3 img, .spiseplass4 img{
+width:150px;
+height:150px;
+margin-left:50px;
+margin-top:50px;	
+float:left;
+border:4px solid #B8B8B8 ;
+}
+.spiseplass1 p, .spiseplass2 p, .spiseplass3 p, .spiseplass4 p{
+width:220px;
+height:150px;
+margin-left:50px;
+margin-top:5px;	
+float:left;
+color:#B8B8B8 ;
+text-align: left;
+}
+/************ SPISE PLASSER SECTION **************/
+
+
+
+/************ THE STAFF SECTIONS **************/
+#staff-header{
+width:100%;
+height:100px;
+float:left;
+background:#FF6633;
+border-top: 1px solid #A0a0a0 ;
+}
+#staff-header h2{
+color:white;
+font-size:2em;
+}
+#the-staff{
+float:left;
+background:#333;
+height:900px;
+width:1024px;
+border-bottom:1px solid #A0a0a0;
+}   
+.staff-section1, .staff-section2{
+width:100%;
+height:50%;
+float:left;   
+}
+
+.staff1, .staff2, .staff3{
+width:200px;
+height:300px;
+float:left;
+margin-left:60px;
+margin-top:80px;
+-webkit-transition:0.5s;
+border-bottom:5px solid #FF6633;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.staff1{
+margin-left:150px;
+}
+.staff4, .staff5, .staff6{
+width:200px;
+height:300px;
+float:left;
+margin-left:60px;
+margin-top:80px;
+-webkit-transition:0.5s;
+border-bottom:5px solid #FF6633;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.staff1:hover, .staff2:hover, .staff3:hover, .staff4:hover, .staff5:hover, .staff6:hover{
+background:#D0D0D0 ;
+-webkit-transition:0.5s;
+}
+.staff1:hover .pic1, .staff2:hover .pic1, .staff3:hover .pic1, .staff4:hover .pic1, .staff5:hover .pic1, .staff6:hover .pic1{
+-webkit-animation-name: pulse;		
+-webkit-animation-duration: 1.5s;
+-webkit-animation-iteration-count: 1;
+}
+.pic1{
+width:110px;
+height:110px;
+border-radius: 50%;
+margin:-60px 45px 0px 45px;
+border:5px solid #707070;
+}
+.staff4{
+ margin-left:150px;
+}
+#the-staff img{
+width:110px;
+height:110px;
+border-radius: 50%;
+
+}
+#the-staff h2{
+font-size:1.2em;
+color:#707070 ;
+}
+#the-staff p{
+width:150px;
+margin:0 25px;
+text-align: center;
+color:#707070 ;
+}
+#the-staff h3{
+color:#707070 ;
+}
+/************ THE STAFF SECTIONS **************/
+
+
+/************ THE PRICE  SECTIONS **************/
+#pricer-hours-header{
+width:100%;
+height:100px;
+background:#F0F0F0;
+float:left;
+}
+#pricer-hours-header h3{
+color:#707070;
+font-size:2em;
+}
+#pricer-hours{
+width:1024px;
+height:600px;
+float:left;
+background:#F0F0F0;
+}
+#prices{
+width:300px;
+height:400px;
+background: #FF6633;
+float:left;
+margin-top:50px;
+margin-left:130px;
+border-radius: 5px;
+}
+#prices-header{
+width:100%;
+height: 50px;
+float:left;
+background:#333;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+#prices-content1, #prices-content2, #prices-content3, #prices-content4, #prices-content5, #prices-content6, #prices-content7{
+width:100%;
+height: 50px;
+float:left;
+}
+#prices-content2, #prices-content4, #prices-content6, #prices-header{
+background:#FF944D;
+}
+#hours{
+width:300px;
+height:400px;
+background: #FF6633;
+margin-top:50px;
+margin-left:150px;
+float:lefT;
+border-radius: 5px;
+}
+#hours-header{
+width:100%;
+height: 50px;
+float:left;
+background:#333;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+#hours-content1, #hours-content2, #hours-content3, #hours-content4, #hours-content5, #hours-content6, #hours-content7{
+width:100%;
+height: 50px;
+float:left;
+}
+
+#hours-content2, #hours-content4, #hours-content6, #hours-header{
+background:#FF944D;
+}
+.button1, .button2{
+width:200px;
+height:50px;
+background:#FF6633;
+float:left;
+margin-left:180px;
+border-bottom:5px solid #CC3300;
+margin-top:40px;
+cursor: pointer;
+border-radius: 5px;
+}
+.button2{
+margin-left:250px;
+}
+.button1:hover, .button2:hover{
+transition: 1s;
+background:#FF944D;
+}
+/************ THE PRICE SECTIONS **************/
+
+
+/************ ABOUT US SECTIONS **************/
+#about-us{
+width:1024px;
+height:500px;
+float:left;
+background:#F0F0F0;
+}
+
+#about-us p{
+margin-top:50px;
+width:60%;
+margin:50px auto;
+text-align: center;
+color:#707070;
+font-size:1.1em;
+}
+#about-us h2{
+margin-top:50px;
+color:#707070;
+font-size: 2.5em;
+}
+#about-us h3{
+margin-top:50px;
+color:#707070;
+width:70%;
+margin:0 auto;
+}
+#contact{
+width:1024px;
+height:300px;
+float:left;
+background:linear-gradient(rgba(36, 36, 30, 0.3),  rgba(36, 36, 30, 0.3)), url("images/web5.jpg");
+
+background-repeat: no-repeat;
+background-size:cover;
+border-top:1px solid #C8C8C8;
+}
+#footer{
+width:1024px;
+height:50px;
+float:left;
+background:#333;
+}
+.contact-info1, .contact-info2{
+width:50%;
+height:100%;
+float:left;
+}
+.contact-wrapper-one, .contact-wrapper-two{
+float:left;
+width:50%;
+height:100%;
+}
+.contact-wrapper-two img{
+display: block;
+width:30px;
+height:30px;
+margin-top:20px;
+margin-left:50px;
+}
+.contact-wrapper-two h3{
+margin-left:50px;
+}
+#facebook-icon{
+margin-top:25px; 
+}
+.contact-info1 img{
+width:30px;
+height:30px;
+display:block;
+margin-top:15px;
+margin-left:120px;
+}
+#contact-img{
+margin-top:30px;
+}
+.contact-info1 p{
+color:White;
+margin-top:-20px;
+-webkit-transition:0.5s;
+}
+.contact-info2 p{
+text-align: left;
+color:White;
+margin-top:-2px;
+-webkit-transition:0.5s;
+}
+#contact-text-two{
+margin-top:35px;
+}
+.contact-info1 p:hover{
+-webkit-transition:0.5s;
+color:#FF6633;
+}
+.contact-info2 p:hover{
+-webkit-transition:0.5s;
+color:#FF6633;
+}
+.contact-info1 h3{
+color:White;
+margin-top:70px;
+margin-left:-170px;
+}
+.contact-info2 h3{
+color:White;
+text-align: left;
+margin-top:70px;
+}
+
+/************ ABOUT US SECTIONS **************/
+
+
+
+
+
+#map-header{
+width:100%;
+height:100px;
+float:left;
+background:#f0f0f0;
+}
+/*-- Start mapWrap --*/
+
+#mapWrap{
+margin:0 auto;
+width: 1024px;
+height: 2000px;
+margin: 0 auto;
+background-image: url(images/map6.png);
+float:left; 
+position:relative;
+}
+
+#mapWrap *{
+position: absolute;
+}
+
+#mapWrap li{    
+position: relative;
+}
+
+/*-- End mapWrap --*/
+
+
+.icon {
+cursor:pointer;
+height: 60px;
+width: 60px;
+-webkit-animation-name: chill;	
+-webkit-animation-duration: 2.5s;
+-webkit-animation-iteration-count: infinite;
+}
+.box {
+ height: 0px;
+ width: 0px;
+ background-color: aliceblue;
+ overflow: hidden;
+-webkit-transition-property: height, width, background-color;
+-webkit-transition-duration: 1s;
+-webkit-transition-timing-function: ease-out;
+}
+.text
+{
+color: white;
+}
+.box img {
+    position: absolute;
+}
+/*-- Start Pointers --*/
+
+#point01 {
+left:44%;
+top: 7%;
+}
+#point02 {
+top: 25%;
+left: 35%;
+}
+#point03 {
+top: 38%;
+left: 33%;
+}
+#point04 {
+top: 47%;
+left: 18%;
+}
+#point05 {
+top: 65%;
+left: 36%;
+}
+#point06 {
+top: 16%;
+left: 35%;
+}
+#point07 {
+top: 75%;
+left: 22%;
+}
+#point08 {
+top: 83%;
+right: 12%;
+}
+#point09{
+top: 8%;
+left: 12%;
+}
+#point10 {
+top: 36%;
+right: 6%;
+}
+#point11 {
+top: 60%;
+left: 15%;
+}
+#point12 {
+top: 96%;
+left: 31%;
+}
+/*-- End Pointers --*/
+
+/*-- Start Boxes --*/
+#box01 {
+top: 2%;
+left: 55%;
+}
+#box02 {
+top: 22%;
+left: 43%;
+}
+#box03 {
+top: 35%;
+left: 40%;
+}
+#box04 {
+top: 43%;
+left: 27%;
+}
+#box05 {
+top: 62%;
+left: 42%;
+}
+#box06 {
+top: 13%;
+left: 50%;
+}
+#box07 {
+top: 72%;
+left: 33%;
+}
+#box08 {
+top: 75%;
+right: 15%;
+}
+
+/*-- Start hover --*/
+
+#chamtxt, #croctxt, #flamtxt, #pandtxt, #slottxt, #sheeptxt, #whaletxt, #liotxt{
+width:100%;
+height:20%;
+float:left;
+background:#FF6633;
+position: relative;
+}
+#chambox{
+width:100%;
+height:80%;
+float:left;
+background-image:url(images/box01back.jpg);
+background-size: cover;
+position:Relative;
+}
+
+
+#crocbox{
+width:100%;
+height:80%;
+float:left;
+background-image:url(images/box02back.jpg);
+background-size: cover;
+position:Relative;
+}
+#flambox{
+width:100%;
+height:80%;
+float:left;
+background-image:url(images/box03back.jpg);
+background-size: cover;
+position:Relative;
+}
+
+#pandbox{
+width:100%;
+height:80%;
+float:left;
+background-image:url(images/box04back.jpg);
+background-size: cover;
+position:Relative;
+}
+#slothbox{
+width:100%;
+height:80%;
+float:left;
+background-image:url(images/box05back.jpg);
+background-size: cover;
+position:Relative;
+}
+#sheebox{
+width:100%;
+height:80%;
+float:left;
+background-image:url(images/box06back.jpg);
+background-size: cover;
+position:Relative;
+}
+#whalbox{
+width:100%;
+height:80%;
+float:left;
+background-image:url(images/box07back.jpg);
+background-size: cover;
+position:Relative;
+}
+#lionbox{
+width:100%;
+height:80%;
+float:left;
+background-image:url(images/box08back.jpg);
+background-size: cover;
+position:Relative;
+}
+#point01:hover + #box01 {
+border-radius: 5px;
+height:400px;
+width: 512px;
+background-color: #FF6633;
+border: 5px solid #FF6633;
+border-bottom:5px solid #CC3300;
+}
+#point02:hover + #box02 {
+height:400px;
+width: 512px;
+background-color: #FF6633;
+border: 5px solid #FF6633;
+border-radius: 5px;
+border-bottom:5px solid #CC3300;
+}
+#point03:hover + #box03 {
+border-radius: 5px;
+height:400px;
+width: 512px;
+background-color: #FF6633;
+border: 5px solid #FF6633;
+border-bottom:5px solid #CC3300;
+}
+#point04:hover + #box04 {
+border-radius: 5px;
+height:400px;
+width: 512px;
+background-color: #FF6633;
+border: 5px solid #FF6633;
+border-bottom:5px solid #CC3300;
+}
+
+#point05:hover + #box05 {
+border-radius: 5px;
+height:400px;
+width: 512px;
+background-color: #FF6633;
+border: 5px solid #FF6633;
+border-bottom:5px solid #CC3300;
+}
+#point06:hover + #box06 {
+height:400px;
+width: 512px;
+background-color: #FF6633;
+border: 5px solid #FF6633;
+border-radius: 5px;
+border-bottom:5px solid #CC3300;
+}
+#point07:hover + #box07 {
+height:400px;
+width: 512px;
+background-color: #FF6633;
+border: 5px solid #FF6633;
+border-radius: 5px;
+border-bottom:5px solid #CC3300;
+}
+#point08:hover + #box08 {
+height:400px;
+width: 512px;
+background-color: #FF6633;
+border: 5px solid #FF6633;
+border-radius: 5px;
+border-bottom:5px solid #CC3300;
+}
+
+/*-- End hover --*/
+
+/*-- Start animals --*/
+
+#sheep1{
+height: 60px;
+width: 60px;
+bottom:40%;
+left: 15%;
+}
+#sheep2 {
+height: 75px;
+width: 75px;
+bottom: 42%;
+left: 30%;
+}
+#sheep3 {
+height: 100px;
+width: 100px;
+bottom: 43%;
+left: 50%;
+}
+#broforan {
+margin-top:-10px;
+height: 341px;
+width: 512px;
+}
+#kam1 {
+height: 200px;
+width: 200px;
+bottom: -25%;
+left: 12%;
+-webkit-animation: blinking 5s linear infinite 1.3s; 
+}
+#whaleBody{
+height: 100px;
+width: 100px;
+bottom: 20%;
+left: 20%;    
+}
+#whaleTail{
+height: 100px;
+width: 100px;
+bottom: 23%;
+left: 50%;
+-webkit-animation: tailSwing 2s ease 0s infinite alternate;
+}
+#whaleSplash{
+height: 80px;
+width: 80px;
+bottom: 50%;
+left: 20%;
+-webkit-animation: splashAnimation 4s ease 0s infinite;
+}
+#lionhod {
+height: 140px;
+width: 80px;
+left: 33%;
+top: 7%;
+
+-webkit-animation:lionwhip 4s infinite;
+-webkit-animation-delay: 1s;
+float:left;
+}
+#lionBody{
+float:left;
+height:150px;
+width: 200px;
+
+left:100px;
+top:100px;
+}
+#SoundWave{
+width:60px;
+height:60px;
+left:55%;
+top:13%;
+-webkit-animation:lionsound 4s infinite;
+-webkit-animation-delay: 1s;
+}
+/*-- Start Crocodile --*/
+
+#crocLowerMouth {
+height: 25%;
+width: auto;
+bottom: 10%;
+left: -5%;        
+}
+#crocUpperMouth {  
+height: 33%;
+width: auto;
+bottom: 22%;
+left: 15%;
+-webkit-animation: crocBite 1s ease 0s infinite alternate
+}
+
+/*-- End Crocodile --*/
+
+/*-- Start Flamingo --*/
+
+
+#flamingoBody{
+height: 300px;
+width: auto;
+top: 80px;
+left: 150px;
+}
+#flamingoWing{
+height: 300px;
+width: auto;
+margin-top: 80px;
+left: 150px;
+-webkit-animation: wingFlap 2s linear 0s infinite alternate
+}
+#flamingoHead{
+height: 300px;
+width: auto;
+margin-top:-100px;
+}
+#flamingoLeg *{
+height: 300px;
+width: auto;
+margin-top:-100px;    
+}
+ #flamingoLowerLeg{
+ -webkit-animation: legRaise2 2s linear 0s infinite alternate
+ }
+ #flamingoUpperLeg{
+ -webkit-animation: legRaise 2s linear 0s infinite alternate;
+ margin-left:150px;
+ margin-top:-100px;
+ }
+ #flamingoHead{
+ -webkit-animation: headBow 2s linear 0s infinite  alternate 
+ }
+/*-- End Flamingo --*/
+
+#panda1 {
+height: 130px;
+width: 130px;
+right: 28%;
+bottom: 30%;
+-webkit-animation-name: bounce;
+-webkit-animation-duration: 1.6s;	
+-webkit-animation-timing-function: ease;	
+-webkit-transform-origin: 50% 100%;
+-webkit-animation-iteration-count: infinite;   
+}
+#sloth{   
+height: 230px;
+width: 230px;
+top: 12%;
+left: 26%;
+-webkit-animation: slothSwing 2s ease 0s infinite alternate
+}
+
+/********** ANIMATION SECTION *****************/
+
+@-webkit-keyframes crocBite{
+0%{
+-webkit-transform-origin: 60px;
+-webkit-transform: rotate(13deg);
+  }
+100%{
+-webkit-transform-origin: 60px;
+-webkit-transform: rotate(-20deg);
+}
+} 
+@-webkit-keyframes slothSwing{
+0%{
+-webkit-transform-origin: 60px;
+-webkit-transform: rotate(0deg);
+}
+100%{
+-webkit-transform-origin: 60px;
+-webkit-transform: rotate(15deg);
+}
+}
+@-webkit-keyframes blinking {  
+50% { opacity: 0.0; }
+}
+@keyframes lionwhip {
+0% {
+-webkit-transform: rotate(0deg);
+}
+50% {    
+-webkit-transform:rotate(-5deg);
+}	
+100% {    
+-webkit-transform: rotate(0deg);	
+}			
+}
+@-webkit-keyframes lionsound {
+0% {
+left:55%;
+opacity: 0;
+}
+50% {
+left:60%;
+opacity: 1;
+}	
+100% {
+left:65%;
+opacity: 0;
+}			
+}
+@-webkit-keyframes pulse {
+0% {
+-webkit-transform: scale(0.9);
+opacity: 0.7;		
+}
+50% {
+-webkit-transform: scale(1);
+opacity: 1;	
+}	
+100% {
+-webkit-transform: scale(0.9);
+opacity: 0.7;	
+}			
+}
+@-webkit-keyframes bounce {
+0% {
+-webkit-transform: translateY(0%) scaleY(0.6);
+}
+60%{
+-webkit-transform: translateY(-100%) scaleY(1.1);
+}
+70%{
+-webkit-transform: translateY(0%) scaleY(0.95) scaleX(1.05);
+}
+80%{
+-webkit-transform: translateY(0%) scaleY(1.05) scaleX(1);
+}	
+90%{
+-webkit-transform: translateY(0%) scaleY(0.95) scaleX(1);
+}				
+100%{
+-webkit-transform: translateY(0%) scaleY(1) scaleX(1);
+}	
+}
+@-webkit-keyframes chill {
+0% {
+-webkit-transform: rotate(-4deg);	
+}
+50% {
+-webkit-transform: rotate(4deg);
+}
+100% {
+-webkit-transform: rotate(-4deg);	
+}						
+} 
+@-webkit-keyframes legRaise{       
+0%{
+top: 180px;
+-webkit-transform: rotate(0deg); 
+-webkit-transform-origin: 40px;
+}
+100%{
+top: 170px;
+-webkit-transform: rotate(60deg); 
+-webkit-transform-origin: 50px;             
+}
+}
+@-webkit-keyframes legRaise2{       
+0%{
+top: 180px;
+left: 150px;
+-webkit-transform: rotate(0deg); 
+-webkit-transform-origin: 40px;
+}
+100%{
+top: 115px;
+left: 120px;
+-webkit-transform: rotate(-30deg); 
+-webkit-transform-origin: 50px;     
+}
+}
+@-webkit-keyframes headBow{                
+0%{
+top: 180px;
+left: 150px;
+-webkit-transform: rotate(0deg); 
+}
+100%{
+top: 155px;
+left: 110px;
+-webkit-transform: rotate(70deg);         
+}
+}
+ @-webkit-keyframes tailSwing{
+0%{
+-webkit-transform-origin: 60px;
+-webkit-transform: rotate(13deg);
+bottom: 23%;
+left: 50%;
+}
+100%{
+-webkit-transform-origin: 60px;
+-webkit-transform: rotate(-20deg);
+left: 45%;
+bottom: 30%;
+}
+}
+@-webkit-keyframes splashAnimation{
+0%{
+-webkit-transform: scaleY(0);    
+opacity: 0;
+bottom: 40%;
+}
+30%{
+-webkit-transform:scaleY(1);
+opacity: 1;
+bottom: 50%;
+}
+50%{
+opacity: 0;
+bottom: 50%;
+-webkit-transform: scaleX(1.2) scaleY(1.2);
+}
+100%{
+opacity: 0;
+bottom: 50%;
+-webkit-transform: scaleX(1.2) scaleY(1.2);
+}
+}
+@-webkit-keyframes change{
+0%{
+background:linear-gradient(rgba(36, 36, 30, 0.3),  rgba(36, 36, 30, 0.3)), url("images/nice.jpg");
+
+background-repeat: no-repeat;
+background-size:cover;
+}
+50%{
+background:linear-gradient(rgba(36, 36, 30, 0.3),  rgba(36, 36, 30, 0.3)), url("images/web3.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+}
+75%{
+background:linear-gradient(rgba(36, 36, 30, 0.3),  rgba(36, 36, 30, 0.3)), url("images/web5.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+}
+100%{
+background:linear-gradient(rgba(36, 36, 30, 0.3),  rgba(36, 36, 30, 0.3)), url("images/nice.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+}
+}
+@-webkit-keyframes fade{
+from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg;)}
+}
+@-webkit-keyframes roll {
+from { -webkit-transform: translateX(0px) rotate(0deg) }
+to   { -webkit-transform: translateX(0px) rotate(360deg) }
+}
+@keyframes pulse {
+0% {
+-webkit-transform: scale(0.9);
+opacity: 0.7;		
+}
+50% {
+-webkit-transform: scale(1);
+opacity: 1;
+}	
+75% {
+-webkit-transform: scale(0.9);
+opacity: 0.7;	
+}
+100% {
+-webkit-transform: scale(1);
+opacity: 1;	
+}			
+}
+/************ ANIMATION SECTIONS **************/
